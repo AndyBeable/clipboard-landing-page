@@ -1,0 +1,52 @@
+.image-container {
+  margin: 0 auto;
+}
+
+.computer {
+  display: block;
+  width: 75vw;
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .image-container-computer {
+    height: 100%;
+    position: relative;
+  }
+
+  .computer {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+  }
+}
+
+.devices {
+  display: block;
+  width: 75vw;
+  margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .image-container-devices {
+    height: 100%;
+    position: relative;
+  }
+
+  .devices {
+    height: inherit;
+    width: inherit;
+    margin: 0 auto;
+  }
+}
+
+.icon {
+  display: block;
+  height: 32px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.logo-icon {
+  height: 27px;
+}

@@ -1,0 +1,15 @@
+.section-access {
+  margin-bottom: 6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .section__access__features-container {
+    display: flex;
+  }
+  .section__access__feature-item {
+    width: 33.33%;
+  }
+  .section__access__feature-item:not(:last-of-type) {
+    margin-right: 3rem;
+  }
+}
