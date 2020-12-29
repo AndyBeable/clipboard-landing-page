@@ -179,7 +179,8 @@ body {
 
 .footer {
   background-color: rgba(159, 171, 178, 0.185);
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 1rem 0; }
   @media screen and (min-width: 750px) {
     .footer {
       padding: 39px 165px; } }
